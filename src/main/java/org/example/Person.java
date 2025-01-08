@@ -29,6 +29,7 @@ public class Person {
         this.kilo = kilo;
     }
 
+    //methods
     public String getFirstName() {
         return firstName;
     }
@@ -43,6 +44,18 @@ public class Person {
 
     public boolean isTeen () {
         return age >= 13 && age <= 19;
+    }
+
+    public String getHobbies() {
+        return hobbies;
+    }
+
+    public String getSkills () {
+        return skills;
+    }
+
+    public Double getKilo () {
+        return kilo;
     }
 
 
